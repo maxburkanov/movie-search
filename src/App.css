@@ -1,24 +1,47 @@
 .wrapper {
-
-}
-.navBar {
   text-align: center;
 }
-.nav-input {
-  width: 15%;
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px 0;
+  background-color: #242424d2;
+  margin-bottom: 10px;
+}
+
+.navBar .inner-search {
+  width: 50%;
+  margin-left: 100px;
+}
+.navBar div .nav-input {
+  width: 30%;
   transition: 0.4s ease-in-out;
   margin: 10px;
+  margin-left: 20px;
   padding: 7px;
   border: 1px solid #908f8f; 
 }
-.nav-input:focus {
-  width: 30%; 
+.navBar div .nav-input:focus {
+  width: 40%; 
   outline-color: #f4f4f4; 
 }
-.nav-button {
+.navBar div .nav-button {
   padding: 7px 25px;
-
+  background-color: #E6461A;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
+
+
+.form-paging {
+  /* width: 30%; */
+  color: white;
+}
+
 .main-poster {
   display: flex;
   flex-wrap: wrap;
@@ -26,8 +49,17 @@
 .movie {
   width: 200px;
   padding-left: 30px;
-
+  position: relative;
 }
+
+ .open {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  color: white;
+  font-size: 30px;
+}
+
 .movie img {
   width: 150px;
 }

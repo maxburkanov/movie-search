@@ -7,7 +7,7 @@ import Paging from './pagination';
 export default (props)=>{
 
   const [search, setSearch] = useState('');
-  const {saveToState, currentPage} = props;
+  const {saveToState, currentPage, saveCurrentPage, page} = props;
 
   const searchMovies = async (e) => {
     e.preventDefault()
@@ -23,10 +23,13 @@ export default (props)=>{
   
   return (
       <form onSubmit={searchMovies} className="navBar">
-        <input type="text" value={search} onChange={(e)=>{
-          setSearch(e.target.value)
-        }} className="nav-input"/>
-        <button type="submit" className="nav-button">Search</button>
+        <div className='inner-search'>
+          <input type="text" value={search} onChange={(e)=>{
+            setSearch(e.target.value)
+          }} className="nav-input" placeholder="Search for movies..."/>
+          <button type="submit" className="nav-button">Search</button>
+        </div>
+        <Paging className='form-paging' saveCurrentPage={saveCurrentPage} page={page}/>
       </form>
   )
 }
