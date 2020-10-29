@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/maxburkanov/movie-search.git/static/css/main.7fe2c67e.chunk.css",
+    "main.js": "/maxburkanov/movie-search.git/static/js/main.1348d3e2.chunk.js",
+    "main.js.map": "/maxburkanov/movie-search.git/static/js/main.1348d3e2.chunk.js.map",
+    "runtime-main.js": "/maxburkanov/movie-search.git/static/js/runtime-main.dd8e2ad5.js",
+    "runtime-main.js.map": "/maxburkanov/movie-search.git/static/js/runtime-main.dd8e2ad5.js.map",
+    "static/js/2.e3e2a3d6.chunk.js": "/maxburkanov/movie-search.git/static/js/2.e3e2a3d6.chunk.js",
+    "static/js/2.e3e2a3d6.chunk.js.map": "/maxburkanov/movie-search.git/static/js/2.e3e2a3d6.chunk.js.map",
+    "index.html": "/maxburkanov/movie-search.git/index.html",
+    "precache-manifest.6c905802524eeba791c2d0c907e6746f.js": "/maxburkanov/movie-search.git/precache-manifest.6c905802524eeba791c2d0c907e6746f.js",
+    "service-worker.js": "/maxburkanov/movie-search.git/service-worker.js",
+    "static/css/main.7fe2c67e.chunk.css.map": "/maxburkanov/movie-search.git/static/css/main.7fe2c67e.chunk.css.map",
+    "static/js/2.e3e2a3d6.chunk.js.LICENSE.txt": "/maxburkanov/movie-search.git/static/js/2.e3e2a3d6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd8e2ad5.js",
+    "static/js/2.e3e2a3d6.chunk.js",
+    "static/css/main.7fe2c67e.chunk.css",
+    "static/js/main.1348d3e2.chunk.js"
+  ]
+}
