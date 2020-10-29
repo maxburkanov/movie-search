@@ -43,7 +43,7 @@ export default class Movie extends React.Component {
     if (this.state.imdbID.length === 0) {
       return (
         <>
-        <div onClick={this.openMovie} className="open">></div>
+        <div onClick={this.openMovie} className="open">>  </div>
         <Modal data={this.state.movie} />
         <div>asdasdasdasd</div>
         </>
